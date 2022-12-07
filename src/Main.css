@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) 
+{
+.gdfvds
+{
+    font-size: 1px !important;
+}
+    .progress
+    {
+  font-size: 15px !important;
+    }
+}
+.bg-dark 
+{
+    background-color: transparent !important;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.navbar-toggler{
+    width: 50px;
+    height: 64px;
+    background-color: transparent;
+    border:none;
+}

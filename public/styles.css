@@ -1,0 +1,539 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+    scroll-behavior: smooth;
+       
+
+}
+
+body
+{
+    background-color: #393535 !important;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.App
+{
+overflow:hidden;
+}
+div
+{
+    overflow: hidden;
+}
+ul li 
+{
+display: block;
+margin:0 auto;
+padding:20px;
+
+}
+
+ul li a
+{
+text-decoration: none !important;
+color:#64ffda !important;
+font-family: 'Poiret One', cursive !important;
+font-size:30px; 
+display:block !important;
+text-align:center !important;
+width:150px !important;
+text-decoration:none !important;
+}
+
+ul li a:hover
+{
+color:white !important;
+transition-duration: 0.7s;
+transition-delay: 0.1s;
+font-size: 38px;
+border-bottom: 2px solid white;
+}
+img
+{
+    width:90%;
+}
+
+.parcolor
+{
+    font-size: 25px;
+    color:rgb(135, 201, 135);
+}
+
+.first
+{
+    font-size: 35px;
+    color:rebeccapurple;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.second
+{
+    font-size: 35px;
+    color:crimson;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.last
+{
+    font-size: 35px;
+    color:#64ffda;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.navBar
+{
+    overflow: hidden !important;
+width:100% !important;
+margin:0 auto !important;
+}
+.s1 
+{
+    width:50px;
+   background-color: white;
+    height:5px;
+    transform: rotate(-66deg);
+    position: absolute;
+    top:11px;
+    left: -12px;;
+
+}
+
+.fix
+{
+position:fixed !important;
+width: 100% !important;
+top:0 !important;
+right: 0 !important;
+left:0 !important;
+}
+.s2
+{
+    width:65px;
+   background-color: white;
+    height:5px;
+    transform: rotate(67deg);
+    position:absolute;
+    left:-8px;
+}
+.scroll-to-top
+{
+    
+    position:sticky;
+    bottom:0;
+    left: 46.5%;
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color: #64ffda;
+    color:#fff;
+    opacity: 0.255555555;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:20px !important;
+
+}
+.scroll-to-top:hover
+{
+
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s; cursor: pointer;
+
+}
+.ss 
+{
+    text-align: center;
+    color:white;
+    font-size: 35px;
+}
+.scroll-to-top .icon 
+{
+    margin-top:10px;
+    animation: scrollTop 0.5s alternate ease;
+}
+@keyframes scrollTop {
+    from {
+        transform: translatey(2px);
+           }
+           to {
+            transform: translatey(-1px);
+               }
+}
+
+@media screen and (min-width: 900px) {
+    .floattoright ul  
+    {
+        float: right !important;
+        position:absolute;
+        right:0px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    ul li a
+       {
+display: block;
+margin:0 auto;
+
+       }
+
+       .onscreen 
+{
+font-size: 15px !important;
+
+}
+
+ul li 
+{
+    float: left !important;
+}
+     }
+
+  .welcoming
+  {
+    color:#64ffda !important;
+    font-family: 'Poiret One', cursive !important;
+  }
+  .text-center 
+  {
+      text-align: center;
+      display: block;
+      margin:0 auto;
+
+  }
+
+div .progress
+{
+    font-size: 15px;
+}
+  .paragrapgh
+  {
+    color:#fff !important;
+    font-family: 'Poiret One', cursive !important;
+    text-align: center !important;
+  }
+
+
+  .eliminate
+  {
+      background-color: transparent !important;
+  }
+  .underline
+  {
+      border-bottom: 9px solid white;
+      width:16%;
+      padding-bottom:20px;
+      margin-left:200px !important;
+  }
+  .map
+  {
+    filter: invert(200%);
+margin-left:200px;
+display: block;
+margin: 0 auto;  
+margin-top: 80px;
+}
+.parColor h1,p
+{
+    color:#64ffda !important;
+    font-family: 'Poiret One', cursive !important;
+    font-size: 40px !important;
+    padding-left: 180px !important;
+
+}
+@media screen and (max-width: 900px) {
+
+    .map
+    {
+        width:400px;
+        height:320px;
+    }
+
+    .parColor h1,p
+    {
+        color:#64ffda !important;
+        font-family: 'Poiret One', cursive !important;
+        font-size: 1x !important;
+
+    } 
+
+}
+@media screen and (min-width: 500px) {
+
+ 
+
+  }
+  .par
+  {
+      color:#fff;
+      font-family: 'Poiret One', cursive !important;
+      font-size:20px !important;
+      margin-left:80px;
+      text-align: center !important;
+  }
+.map
+{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+.pic
+{
+    width: 100px;
+}
+a:hover
+{
+cursor: pointer;
+}
+.borderr
+{
+    width:30%;
+    border-bottom:5px solid white;
+}
+@media screen and (max-width: 1200px) {
+    .parColor h1,p
+{
+    color:#64ffda !important;
+    font-family: 'Poiret One', cursive !important;
+    font-size: 25px !important;
+    padding-left: 180px !important;
+
+}
+    .paragrapgh
+    {
+      color:#fff !important;
+      font-family: 'Poiret One', cursive !important;
+      text-align: center !important;
+      text-justify: inter-word !important;
+      margin-left:-180px !important;
+    }
+    
+.nav 
+{
+    overflow: hidden !important;
+    position: relative !important;
+    top:0 !important;
+    right:0 !important;
+
+}
+.borderr
+{
+    width:70%;
+    border-bottom:5px solid white;
+}
+  }
+  .card
+  {
+      text-align: center;
+      display: inline-flex;
+      background-color: transparent !important;
+      color:#64ffda !important;
+      cursor:pointer;
+      border:2px solid #64ffda !important; 
+      border-top-right-radius: 10px !important;
+      border-top-left-radius: 10px !important;
+      border-bottom-left-radius: 10px !important;
+      border-bottom-right-radius: 10px !important;
+  }
+
+  .but
+  {
+display: block !important;
+margin:0 auto !important;
+margin-bottom:50px !important;
+  }
+  .cen
+  {
+      text-align: center !important;
+      display:block !important;
+      margin:0 auto !important;
+  }
+  .btnwidth
+  {
+      width:15% !important
+  }
+
+.chgcol
+{
+    color:#64ffda !important;  
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px; 
+    width:70% !important;
+}
+
+.progress1
+{
+    width: 95%;
+    
+}
+.progress2
+{
+    width: 85%;
+}
+.progress99
+{
+    width: 88%;
+}
+.progress3
+{
+    width: 90%;
+}
+.progress4
+{
+    width: 80%;
+}
+.progress5
+{
+    width: 75%;
+}
+.progress6
+{
+    width: 65%;
+}
+.progress7
+{
+    width: 90%;
+}
+
+.progress9
+{
+    width: 80%;
+}
+.progress10
+{
+    width: 92%;
+}
+.movetoright
+{
+    margin-left:200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px; 
+    margin-top:-10px ;
+}
+.decfont
+{
+    font-size:18px;
+}
+.progress
+{
+    background-color:#64ffda !important;
+    width:40% !important;
+    font-size:30px !important;
+    height:35px !important;
+}
+*.icon-blue {
+    color: #0088cc;
+  }
+  
+  *.icon-grey {
+    color: grey;
+  }
+  
+  i {
+    width: 100px;
+    position: absolute;
+  }
+  
+  .badge:after {
+    content: attr(data-count);
+    position: absolute;
+    background: #ff6600;
+    height: 2rem;
+    top: 1rem;
+    right: 1.5rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid #ff6600;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+tr td 
+{
+    width:100% !important; 
+}
+span
+{
+    margin-left:18%;
+    font-size:20px !important;
+}
+span
+{
+    
+        color:#64ffda !important;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px; 
+}
+.footer
+{
+    height:150px;
+    width:100vw !important;
+    
+}
+.lists h4
+{
+    margin-left:-10px;
+}
+.footerContent
+{
+
+    text-align: center !important;
+}
+*
+{
+    border: none !important;
+    outline: none !important;
+}
+.navbar-toggler
+{
+    color:#fff !important;
+}
+@media screen and (max-width: 1200px) 
+{
+    .progress
+    {
+  font-size: 15px !important;
+    }
+}
+.bg-dark 
+{
+    background-color: transparent !important;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.navbar-toggler{
+    width: 50px;
+    height: 64px;
+    background-color: transparent;
+    border:none;
+}
+.bg-dark 
+{
+    background-color: transparent !important;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.navbar-toggler{
+    width: 50px;
+    height: 64px;
+    background-color: transparent;
+    border:none;
+}
